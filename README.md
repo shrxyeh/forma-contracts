@@ -17,7 +17,7 @@ npm run typechain
 Run the tests with Hardhat:
 
 ```sh
-$ npm test
+npm test
 ```
 
 ### Lint Solidity
@@ -25,7 +25,7 @@ $ npm test
 Lint the Solidity code:
 
 ```sh
-$ npm lint:sol
+npm lint:sol
 ```
 
 ### Lint TypeScript
@@ -33,7 +33,7 @@ $ npm lint:sol
 Lint the TypeScript code:
 
 ```sh
-$ pnpm lint:ts
+pnpm lint:ts
 ```
 
 ### Coverage
@@ -49,7 +49,7 @@ $ npm coverage
 See the gas usage per unit test and average gas per method call:
 
 ```sh
-$ REPORT_GAS=true pnpm test
+REPORT_GAS=true pnpm test
 ```
 
 ### Clean
@@ -57,15 +57,7 @@ $ REPORT_GAS=true pnpm test
 Delete the smart contract artifacts, the coverage reports and the Hardhat cache:
 
 ```sh
-$ npm clean
-```
-
-### Deploy
-
-Deploy the contracts to Hardhat Network:
-
-```sh
-$ npm deploy --xpromptNft
+npm clean
 ```
 
 ## Tips
