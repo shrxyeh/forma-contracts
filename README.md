@@ -1,4 +1,4 @@
-# XpromatNFT
+# FormaNFT
 
 ## Getting Started
 
@@ -9,7 +9,7 @@
 Compile the smart contracts and generate TypeChain bindings:
 
 ```sh
-$ npm typechain
+npm run typechain
 ```
 
 ### Test
